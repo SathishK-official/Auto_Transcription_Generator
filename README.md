@@ -1,35 +1,72 @@
-📝 Auto Transcription Generator
-The Auto Transcription Generator is a lightweight web-based application designed to automatically transcribe audio and video files into text. Built using HTML and JavaScript, this tool leverages the power of the OpenAI Whisper model to provide accurate transcriptions.​
-PyDigger
 
-🔧 Features
-Audio & Video Support: Accepts various media formats for transcription.
+# Auto Transcription Generator
 
-Whisper Integration: Utilizes OpenAI's Whisper model for high-quality transcriptions.
+## 📌 What is This?
 
-User-Friendly Interface: Simple drag-and-drop functionality for ease of use.
+The **Auto Transcription Generator** is a Python-based tool that automatically converts audio files into text using advanced speech-to-text processing. It simplifies the process of transcription by supporting multiple audio formats and generating clean, structured text output with minimal effort.
 
-Real-Time Processing: Instant transcription with minimal delay.​
+---
 
-🚀 Getting Started
-Clone the Repository:
+## ✨ Features
 
-bash
-Copy
-Edit
-git clone https://github.com/SathishK-official/Auto_Transcription_Generator.git
-Navigate to the Project Directory:
+* 🎙️ **Automatic Speech-to-Text** – Converts audio into readable text instantly.
+* 🔄 **Multiple Audio Formats Supported** – Works with `.mp3`, `.wav`, `.m4a`, and more.
+* 🧹 **Clean & Organized Output** – Removes background noise and enhances clarity.
+* 📂 **Easy File Management** – Saves transcriptions in `.txt` format automatically.
+* ⚡ **Fast & Efficient** – Utilizes optimized speech recognition for quick results.
 
-bash
-Copy
-Edit
-cd Auto_Transcription_Generator
-Open the Application: Simply open the index.html file in your preferred web browser to start using the application.
+---
 
-⚠️ Notes
-Internet Connection Required: An active internet connection is necessary for the Whisper model to process transcriptions.
+## 🛠 Built With
 
-Privacy Considerations: Ensure that you have the right to transcribe the media files you upload.​
+* **Python 3.10+** – Core programming language.
+* **SpeechRecognition** – For audio-to-text processing.
+* **pydub** – For audio format handling.
+* **OpenAI Whisper / Google Speech API** *(optional)* – For improved transcription accuracy.
 
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+---
+
+## 🚀 How to Use
+
+**Clone the Repository**
+
+   ```bash
+   git clone https://github.com/SathishK-official/Auto_Transcription_Generator.git
+   cd Auto_Transcription_Generator
+   ```
+
+ **Install Dependencies**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+ **Run the Script**
+
+   ```bash
+   python auto_transcription.py
+   ```
+
+ **Choose Your Audio File**
+
+   * Select any `.mp3`, `.wav`, or supported audio file.
+   * Wait for the transcription process to complete.
+
+ **Get the Output**
+
+   * The generated text file will be saved in the **/output** folder.
+
+---
+
+## 🖼 Demo Screenshots
+
+<img width="1919" height="1035" alt="image" src="https://github.com/user-attachments/assets/5db3f275-9289-4864-973d-7d82c871544e" />
+
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
+---
